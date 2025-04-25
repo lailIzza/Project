@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+.header {
+  background-image: url('/asset/gambar/background_home.jpg'); /* ganti path gambar */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
+.header-content {
+  max-width: 500px;
+  background-color: rgba(241, 234, 229, 0.543);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.header-content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.header-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+/* Tombol & icon */
+.btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #E9CBA7;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+.btn:hover{
+  background-color: white;
+  color: #f79061;
+  border: 1 px #f79061;
+}
+.icons {
+  margin-top: 1rem;
+}
+.icons a {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+  color: #000;
+  transition: transform 0.2s;
+}
+.icons a:hover {
+  transform: scale(1.2);
+}
+
+/* Tentang Saya */
+.about {
+  padding: 4rem 2rem;
+  background-color: #fff6ec;
+  color: #3a1c09;
+  font-family: 'Segoe UI', sans-serif;
+}
+.about-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #6b3e26;
+  margin-bottom: 2rem;
+}
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.about-kiri {
+  flex: 1 1 300px;
+  background-color: #fef9e7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.about-kiri h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.about-kiri p{
+  font-size: 1.1rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+.about-kanan {
+  flex: 1 1 300px;
+  background-color: #fef9e7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.about-kanan h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.skill {
+  list-style: none;
+  padding: 0;
+}
+.skill li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.skill i {
+  font-size: 1.8rem;
+  color: #6b3e26;
+  margin-top: 0.2rem;
+}
+
+/* MAtkul */
+.collage {
+  background-color: #ffe4d3;
+  padding: 2rem;
+  text-align: center;
+}
+.collage-title {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+  margin-left: 4%;
+  text-align: left;
+}
+.collage-subtitle {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 4%;
+}
+.collage-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.collage-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.collage-card:hover {
+  transform: scale(1.03);
+}
+.collage-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+.collage-card h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0;
+  text-align: left;
+}
+
+/* Hubungi saya */
+.contact {
+  background-color: #fdf2e9;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.contact-title {
+  font-size: 2rem;
+  color: #3a1c09;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form button {
+  padding: 1rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #256029;
+}
+.contact-form select {
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+form#wa-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Jarak antar elemen */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+form#wa-form input,
+form#wa-form select,
+form#wa-form textarea,
+form#wa-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form#wa-form button {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+form#wa-form button:hover {
+  background-color: darkgreen;
+}

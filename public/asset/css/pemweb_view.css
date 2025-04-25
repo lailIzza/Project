@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+.header-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header-img img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover
+}
+
+.matkul-jdl {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.intro-matkul {
+  padding: 2rem;
+  background-color: #fef1e7;
+  color: #222;
+}
+
+.intro-matkul h2 {
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.intro-matkul ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.intro-matkul li {
+  margin-bottom: 0.5rem;
+}
+
+/* info matkul */
+.info-kelas {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.info-kelas h2 {
+  color: #222;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.info-kelas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.info-kelas li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn-kelas {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  background-color: #40916c;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2d6a4f;
+}
+
+.btn-wa {
+  background-color: #25D366;
+}
+
+.btn-wa:hover {
+  background-color: #1ebe57;
+}
